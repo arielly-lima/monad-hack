@@ -1,4 +1,8 @@
 {
-  "rootDirectory": "Blitz-Monad/flowpool/apps/web",
-  "framework": "nextjs"
+  "builds": [
+    {
+      "src": "Blitz-Monad/flowpool/apps/web/package.json",
+      "use": "@vercel/next"
+    }
+  ]
 }
